@@ -1,0 +1,1 @@
+Generates simple transitions between most biomes in Minecraft to try and prevent harsh biome edges. Requires [lithostitched](https://modrinth.com/mod/lithostitched).
