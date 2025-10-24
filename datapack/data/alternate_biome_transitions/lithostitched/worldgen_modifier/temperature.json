@@ -11,7 +11,7 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:noise",
-          "noise": "static:static",
+          "noise": "alternate_biome_transitions:static",
           "xz_scale": 1,
           "y_scale": 0
         },
