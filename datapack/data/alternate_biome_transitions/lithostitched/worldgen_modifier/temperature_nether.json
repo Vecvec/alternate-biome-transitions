@@ -1,0 +1,22 @@
+{
+  "type": "lithostitched:wrap_noise_router",
+  "priority": 1000,
+  "dimension": "minecraft:the_nether",
+  "target": "temperature",
+  "wrapper_function": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:noise",
+        "noise": "alternate_biome_transitions:static",
+        "xz_scale": 1,
+        "y_scale": 1
+      },
+      "argument2": 0.1
+    },
+    "argument2": {
+      "type": "lithostitched:wrapped_marker"
+    }
+  }
+}
