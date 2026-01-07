@@ -24,11 +24,15 @@
         }
       },
       "argument2": {
-        "type": "minecraft:y_clamped_gradient",
-        "from_y": 64,
-        "to_y": 3000,
-        "from_value": 0.0025,
-        "to_value": -1.5
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 64,
+          "to_y": 3000,
+          "from_value": 0.0025,
+          "to_value": -1.5
+        },
+        "argument2": "alternate_biome_transitions:constants/temperature_height_drop_amplitude"
       }
     },
     "argument2": {
